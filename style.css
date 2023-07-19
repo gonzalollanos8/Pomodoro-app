@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;800&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body{
+/*    background-color: #232323; */
+    background-image: linear-gradient(
+        300deg,
+        hsl(321deg 100% 50%) 0%,
+        hsl(318deg 100% 49%) 1%,
+        hsl(314deg 100% 48%) 3%,
+        hsl(310deg 100% 46%) 6%,
+        hsl(304deg 100% 44%) 9%,
+        hsl(298deg 100% 43%) 12%,
+        hsl(291deg 100% 46%) 16%,
+        hsl(283deg 100% 48%) 21%,
+        hsl(277deg 98% 49%) 26%,
+        hsl(274deg 95% 46%) 31%,
+        hsl(271deg 93% 42%) 37%,
+        hsl(268deg 93% 38%) 43%,
+        hsl(265deg 94% 34%) 50%,
+        hsl(260deg 95% 30%) 56%,
+        hsl(255deg 97% 25%) 63%,
+        hsl(245deg 99% 21%) 69%,
+        hsl(237deg 92% 23%) 75%,
+        hsl(232deg 84% 28%) 81%,
+        hsl(228deg 81% 33%) 86%,
+        hsl(225deg 80% 38%) 91%,
+        hsl(221deg 81% 42%) 94%,
+        hsl(218deg 84% 46%) 97%,
+        hsl(215deg 89% 49%) 99%,
+        hsl(211deg 100% 50%) 100%
+        );
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 1200px;    
+    margin: 15px;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 200px 300px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#value{
+    font-size: 100px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+#taskName{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.task-container{
+    /* background-color: red; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#itTask{
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#bAdd{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.task{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+#itTask{
+    height: 50px;
+    width: 500px;
+}
+
+.task .title{
+    padding: 5px;
+}
+
+.start-button{
+    cursor: pointer;
+}
+
